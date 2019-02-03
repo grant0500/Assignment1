@@ -1,0 +1,63 @@
+A)
+Grant@DESKTOP-SRUP99M MINGW64 ~/Documents/GitHub/Assignment1/docs (master)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 922 bytes | 461.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/grant0500/Assignment1.git
+   3d373c9..6b0a67d  master -> master
+
+B)
+$ git rev-list --all --count
+5
+
+C)
+$ git log --follow .gitignore
+commit 69281a35557fd1226cbfc11428068c5d8bcf8466
+Author: Javier Escobar-Avila <jrescobara@gmail.com>
+Date:   Thu Jan 10 16:45:38 2019 -0500
+
+D)
+A good reason to use branches is to be able to work on the same repository
+as another person is at the same time, you can merge with the up to date
+files at the end.
+Another good reason is so that you can keep things in order and be able to
+see when a feature was implemented
+
+E)
+Git log shows you the all of the commits to date while status shows you if
+you have anything to commit or if you are up to date.
+
+F)
+git log --follow Weapon.h
+
+G)
+git log --grep=file
+
+h)
+Inheritance is when you have a parrent and child object and the chlid 
+object is able to have the same variables and functions etc...
+
+Polymorphism is when the parrent class can be used to point to child classes
+that might have a few minor differences such as the student list program
+we created in object oriented, student class that pointed to math history
+or english student.
+
+Encapsulation is when you might have protected data that multiple classes 
+that might need to access using functions.
+
+i) Dictator and Lieutenants Workflow only the dictator is aloud to push 
+to the central repository , while in Integration Management Workflow 
+everyone pushes to their own public repository, and then the Integration 
+manager handles the conflicts.
+
+j)
+With multiple people implementing different features at the same time
+its very likely that things with have some kind of clashing errors. 
+With this workflow the clashing errors are able to be 
+handled before they get pushed to the central repository. Also with so many
+people updating, it would be a lot of more pulls being theres 100 people.
