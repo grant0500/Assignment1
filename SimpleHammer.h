@@ -26,5 +26,5 @@ public:
 
 };
 
-#endif /* COMMONSPEAR_H */
+#endif SIMPLEHAMMER_H
 
