@@ -1,5 +1,5 @@
 /*
- * File:   SimpleHammer.h
+ * File:   SimpleHammer.cpp
  * Author: Grant Pennington <grp17b@my.fsu.edu>
  *
  * Created on February 3rd, 2019, 8:10 PM
