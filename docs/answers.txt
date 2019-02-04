@@ -61,3 +61,8 @@ its very likely that things with have some kind of clashing errors.
 With this workflow the clashing errors are able to be 
 handled before they get pushed to the central repository. Also with so many
 people updating, it would be a lot of more pulls being theres 100 people.
+
+5)
+The RoleGame uses polymorphism because it has several weapons that all use 
+the same weaponsfactory which uses weapons. I beleive it also uses some 
+encapsulation because the hitpoints and armor are sent between.
