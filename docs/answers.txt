@@ -65,4 +65,4 @@ people updating, it would be a lot of more pulls being theres 100 people.
 5)
 The RoleGame uses polymorphism because it has several weapons that all use 
 the same weaponsfactory which uses weapons. I beleive it also uses some 
-encapsulation because the hitpoints and armor are sent between.
+encapsulation because the hitpoints and armor are sent between them.
